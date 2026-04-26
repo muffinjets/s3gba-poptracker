@@ -1,0 +1,21 @@
+{
+    "name": "Attack of the Rhynocs Map Tracker",
+    "game_name": "s3gbar",
+    "package_version": "0.0.1",
+    "package_uid": "s3gba_poptracker",
+    "platform": "gba",
+    "author": "MuffinJets, Breadghost",
+    "min_poptracker_version": "0.32.0",
+    "target_poptracker_version": "0.32.0",
+    "variants": {
+        "standard": {
+            "display_name": "Map Tracker",
+            "flags": ["ap"]
+        },
+        "var_items_only": {
+            "display_name": "Items Only",
+            "flags": ["ap"]
+        }
+    },
+    "versions_url": "https://raw.githubusercontent.com/muffinjets/s3gba_poptracker/main/versions.json"
+}
