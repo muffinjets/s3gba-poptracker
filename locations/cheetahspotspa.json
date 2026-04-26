@@ -1,0 +1,169 @@
+[
+    {
+        "name": "Cheetah Spot Spa",
+        "access_rules": ["quickescape, fireball, top, minidynamo"],
+        "map_locations": [
+        {
+            "map": "overview",
+            "x": 665,
+            "y": 308
+        }
+        ],
+        "sections": [
+        {
+            "name": "CS Vending Machine"
+        },
+        {
+            "name": "CS Moneybags"
+        },
+        {
+            "name": "CS Rhynoc Bombing"
+        },
+        {
+            "name": "CS Flower"
+        },
+        {
+            "name": "CS Agent 9 Mission"
+        },
+        {
+            "name": "CS Fix the Treadmill"
+        },
+        {
+            "name": "CS Green Chest",
+            "access_rules": ["LeftGreen, RightGreen"]
+        },
+        {
+            "name": "CS Find all the Cool Things",
+            "access_rules": ["hipness1, hipness2, hipness3, hipness4, hipness5, hipness6, hipness7"]
+        }
+        ]
+    },
+    {
+        "name": "CS Green Chest",
+        "map_locations": [
+        {
+            "map": "cheetahspotspa",
+            "x": 1304,
+            "y": 231
+        }
+        ],
+        "sections": [
+        {
+            "name": "Master's Crowbar",
+            "ref": "Cheetah Spot Spa/CS Green Chest"
+        }
+        ]
+    },
+    {
+        "name": "CS Flower",
+        "map_locations": [
+        {
+            "map": "cheetahspotspa",
+            "x": 345,
+            "y": 224
+        }
+        ],
+        "sections": [
+        {
+            "name": "Sunspot Bloom",
+            "ref": "Cheetah Spot Spa/CS Flower"
+        }
+        ]
+    },
+    {
+        "name": "CS Vending Machine",
+        "map_locations": [
+        {
+            "map": "cheetahspotspa",
+            "x": 353,
+            "y": 1187
+        }
+        ],
+        "sections": [
+        {
+            "name": "Super Health Bar",
+            "ref": "Cheetah Spot Spa/CS Vending Machine"
+        }
+        ]
+    },
+    {
+        "name": "CS Fix the Treadmill",
+        "map_locations": [
+        {
+            "map": "cheetahspotspa",
+            "x": 974,
+            "y": 922
+        }
+        ],
+        "sections": [
+        {
+            "name": "Ancient Travel Brochure",
+            "ref": "Cheetah Spot Spa/CS Fix the Treadmill"
+        }
+        ]
+    },
+    {
+        "name": "CS Find all the Cool Things",
+        "map_locations": [
+        {
+            "map": "cheetahspotspa",
+            "x": 632,
+            "y": 628
+        }
+        ],
+        "sections": [
+        {
+            "name": "Heart of the Cheetah Spot Spa",
+            "ref": "Cheetah Spot Spa/CS Find all the Cool Things"
+        }
+        ]
+    },
+    {
+        "name": "CS Rhynoc Bombing",
+        "map_locations": [
+        {
+            "map": "cheetahspotspa",
+            "x": 832,
+            "y": 68
+        }
+        ],
+        "sections": [
+        {
+            "name": "Military Cross",
+            "ref": "Cheetah Spot Spa/CS Rhynoc Bombing"
+        }
+        ]
+    },
+    {
+        "name": "CS Agent 9 Mission",
+        "map_locations": [
+        {
+            "map": "cheetahspotspa",
+            "x": 982,
+            "y": 292
+        }
+        ],
+        "sections": [
+        {
+            "name": "Left Half of the Yellow Chest Key",
+            "ref": "Cheetah Spot Spa/CS Agent 9 Mission"
+        }
+        ]
+    },
+    {
+        "name": "CS Moneybags",
+        "map_locations": [
+        {
+            "map": "cheetahspotspa",
+            "x": 213,
+            "y": 310
+        }
+        ],
+        "sections": [
+        {
+            "name": "Master's Explosives",
+            "ref": "Cheetah Spot Spa/CS Moneybags"
+        }
+        ]
+    }
+]

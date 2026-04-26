@@ -1,0 +1,174 @@
+[
+    {
+        "name": "Moneybags' Mansion",
+        "access_rules": ["quickescape, fireball, top"],
+        "map_locations": [
+        {
+            "map": "overview",
+            "x": 665,
+            "y": 165
+        }
+        ],
+        "sections": [
+        {
+            "name": "MM Butler Fight"
+        },
+        {
+            "name": "MM Generator",
+            "access_rules": ["minidynamo"]
+        },
+        {
+            "name": "MM Flower",
+            "access_rules": ["minidynamo"]
+        },
+        {
+            "name": "MM Moneybags Vault",
+            "access_rules": ["minidynamo"]
+        },
+        {
+            "name": "MM Agent 9 Mission",
+            "access_rules": ["minidynamo"]
+        },
+        {
+            "name": "MM Green Chest",
+            "access_rules": ["minidynamo, LeftGreen, RightGreen"]
+        },
+        {
+            "name": "MM Purple Chest",
+            "access_rules": ["minidynamo, LeftPurple, RightPurple"]
+        },
+        {
+            "name": "MM Moneybags",
+            "access_rules": ["minidynamo"]
+        }
+        ]
+    },
+    {
+        "name": "MM Butler Fight",
+        "map_locations": [
+        {
+            "map": "moneybagsmansion",
+            "x": 575,
+            "y": 530
+        }
+        ],
+        "sections": [
+        {
+            "name": "Mini Dynamo",
+            "ref": "Moneybags' Mansion/MM Butler Fight"
+        }
+        ]
+    },
+    {
+        "name": "MM Generator",
+        "map_locations": [
+        {
+            "map": "moneybagsmansion",
+            "x": 525,
+            "y": 530
+        }
+        ],
+        "sections": [
+        {
+            "name": "Enormous Mountaineer's Axe",
+            "ref": "Moneybags' Mansion/MM Generator"
+        }
+        ]
+    },
+    {
+        "name": "MM Flower",
+        "map_locations": [
+        {
+            "map": "moneybagsmansion",
+            "x": 2016,
+            "y": 69
+        }
+        ],
+        "sections": [
+        {
+            "name": "Money Tree",
+            "ref": "Moneybags' Mansion/MM Flower"
+        }
+        ]
+    },
+    {
+        "name": "MM Moneybags Vault",
+        "map_locations": [
+        {
+            "map": "moneybagsmansion",
+            "x": 1108,
+            "y": 448
+        }
+        ],
+        "sections": [
+        {
+            "name": "Groovy Painting",
+            "ref": "Moneybags' Mansion/MM Moneybags Vault"
+        }
+        ]
+    },
+    {
+        "name": "MM Agent 9 Mission",
+        "map_locations": [
+        {
+            "map": "moneybagsmansion",
+            "x": 2287,
+            "y": 301
+        }
+        ],
+        "sections": [
+        {
+            "name": "Left Half of the Purple Chest Key",
+            "ref": "Moneybags' Mansion/MM Agent 9 Mission"
+        }
+        ]
+    },
+    {
+        "name": "MM Green Chest",
+        "map_locations": [
+        {
+            "map": "moneybagsmansion",
+            "x": 1696,
+            "y": 507
+        }
+        ],
+        "sections": [
+        {
+            "name": "Victory Medal",
+            "ref": "Moneybags' Mansion/MM Green Chest"
+        }
+        ]
+    },
+    {
+        "name": "MM Purple Chest",
+        "map_locations": [
+        {
+            "map": "moneybagsmansion",
+            "x": 2435,
+            "y": 378
+        }
+        ],
+        "sections": [
+        {
+            "name": "Digeri-doodle",
+            "ref": "Moneybags' Mansion/MM Purple Chest"
+        }
+        ]
+    },
+    {
+        "name": "MM Moneybags",
+        "map_locations": [
+        {
+            "map": "moneybagsmansion",
+            "x": 476,
+            "y": 549
+        }
+        ],
+        "sections": [
+        {
+            "name": "Heart of Moneybags' Mansion",
+            "ref": "Moneybags' Mansion/MM Moneybags"
+        }
+        ]
+    }
+]

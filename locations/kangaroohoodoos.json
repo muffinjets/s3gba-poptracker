@@ -1,0 +1,172 @@
+[
+    {
+        "name": "Kangaroo Hoodoos",
+        "access_rules": ["quickescape, fireball, top, mint"],
+        "map_locations": [
+        {
+            "map": "overview",
+            "x": 665,
+            "y": 95
+        }
+        ],
+        "sections": [
+        {
+            "name": "KH Help Intro Kangaroo"
+        },
+        {
+            "name": "KH Solve the 9-Square Puzzle",
+            "access_rules": ["headbash"]
+        },
+        {
+            "name": "KH Moneybags Vault"
+        },
+        {
+            "name": "KH Flower"
+        },
+        {
+            "name": "KH Destroy the TVs",
+            "access_rules": ["headbash"]
+        },
+        {
+            "name": "KH Red Chest",
+            "access_rules": ["LeftRed, RightRed"]
+        },
+        {
+            "name": "KH Green Chest",
+            "access_rules": ["lamp, LeftGreen, RightGreen"]
+        },
+        {
+            "name": "KH Find all the Artifacts",
+            "access_rules": ["artifact1, artifact2, artifact3, artifact4, artifact5, artifact6, artifact7"]
+        }
+        ]
+    },
+    {
+        "name": "KH Help Intro Kangaroo",
+        "map_locations": [
+        {
+            "map": "kangaroohoodoos",
+            "x": 831,
+            "y": 1018
+        }
+        ],
+        "sections": [
+        {
+            "name": "Kangaroo Carving",
+            "ref": "Kangaroo Hoodoos/KH Help Intro Kangaroo"
+        }
+        ]
+    },
+    {
+        "name": "KH Solve the 9-Square Puzzle",
+        "map_locations": [
+        {
+            "map": "kangaroohoodoos",
+            "x": 3054,
+            "y": 921
+        }
+        ],
+        "sections": [
+        {
+            "name": "Medal of Honor",
+            "ref": "Kangaroo Hoodoos/KH Solve the 9-Square Puzzle"
+        }
+        ]
+    },
+    {
+        "name": "KH Moneybags Vault",
+        "map_locations": [
+        {
+            "map": "kangaroohoodoos",
+            "x": 2895,
+            "y": 465
+        }
+        ],
+        "sections": [
+        {
+            "name": "Way Cool Lava Lamp",
+            "ref": "Kangaroo Hoodoos/KH Moneybags Vault"
+        }
+        ]
+    },
+    {
+        "name": "KH Flower",
+        "map_locations": [
+        {
+            "map": "kangaroohoodoos",
+            "x": 1792,
+            "y": 102
+        }
+        ],
+        "sections": [
+        {
+            "name": "Roo's Rose",
+            "ref": "Kangaroo Hoodoos/KH Flower"
+        }
+        ]
+    },
+    {
+        "name": "KH Destroy the TVs",
+        "map_locations": [
+        {
+            "map": "kangaroohoodoos",
+            "x": 1451,
+            "y": 980
+        }
+        ],
+        "sections": [
+        {
+            "name": "Flavor Booster",
+            "ref": "Kangaroo Hoodoos/KH Destroy the TVs"
+        }
+        ]
+    },
+    {
+        "name": "KH Red Chest",
+        "map_locations": [
+        {
+            "map": "kangaroohoodoos",
+            "x": 2884,
+            "y": 55
+        }
+        ],
+        "sections": [
+        {
+            "name": "Huge Right Climbing Glove",
+            "ref": "Kangaroo Hoodoos/KH Red Chest"
+        }
+        ]
+    },
+    {
+        "name": "KH Green Chest",
+        "map_locations": [
+        {
+            "map": "kangaroohoodoos",
+            "x": 2016,
+            "y": 544
+        }
+        ],
+        "sections": [
+        {
+            "name": "Master's Hand Drill",
+            "ref": "Kangaroo Hoodoos/KH Green Chest"
+        }
+        ]
+    },
+    {
+        "name": "KH Find all the Artifacts",
+        "map_locations": [
+        {
+            "map": "kangaroohoodoos",
+            "x": 1636,
+            "y": 585
+        }
+        ],
+        "sections": [
+        {
+            "name": "Heart of the Kangaroo Hoodoos",
+            "ref": "Kangaroo Hoodoos/KH Find all the Artifacts"
+        }
+        ]
+    }
+]

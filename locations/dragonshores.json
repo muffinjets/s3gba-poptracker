@@ -1,0 +1,196 @@
+[
+    {
+        "name": "Dragon Shores (Nests)",
+        "map_locations": [
+        {
+            "map": "overview",
+            "x": 350,
+            "y": 530
+        }
+        ],
+        "sections": [
+        {
+            "name": "DS Nest Toddler"
+        },
+        {
+            "name": "DS Moneybags"
+        },
+        {
+            "name": "DS Find all the Toys",
+            "access_rules": ["toy1, toy2, toy3, toy4, toy5, toy6, toy7"]
+        }
+        ]
+    },
+    {
+        "name": "DS Nest Toddler",
+        "map_locations": [
+        {
+            "map": "nests",
+            "x": 417,
+            "y": 233
+        }
+        ],
+        "sections": [
+        {
+            "name": "Book-B-Gone Storage Unit",
+            "ref": "Dragon Shores (Nests)/DS Nest Toddler"
+        }
+        ]
+    },
+    {
+        "name": "DS Moneybags",
+        "map_locations": [
+        {
+            "map": "nests",
+            "x": 202,
+            "y": 498
+        }
+        ],
+        "sections": [
+        {
+            "name": "Spyro Action Figure",
+            "ref": "Dragon Shores (Nests)/DS Moneybags"
+        }
+        ]
+    },
+    {
+        "name": "DS Find all the Toys",
+        "map_locations": [
+        {
+            "map": "nests",
+            "x": 1304,
+            "y": 471
+        }
+        ],
+        "sections": [
+        {
+            "name": "Heart of the Dragon Shores",
+            "ref": "Dragon Shores (Nests)/DS Find all the Toys"
+        }
+        ]
+    },
+    {
+        "name": "Dragon Shores (Coast)",
+        "access_rules": ["quickescape"],
+        "map_locations": [
+        {
+            "map": "overview",
+            "x": 400,
+            "y": 530
+        }
+        ],
+        "sections": [
+        {
+            "name": "DS Flower"
+        },
+        {
+            "name": "DS Ripto",
+            "access_rules": ["lamp, fireball, tornado"]
+        }
+        ]
+    },
+    {
+        "name": "DS Flower",
+        "map_locations": [
+        {
+            "map": "coast",
+            "x": 1346,
+            "y": 142
+        }
+        ],
+        "sections": [
+        {
+            "name": "Dragon Star",
+            "ref": "Dragon Shores (Coast)/DS Flower"
+        }
+        ]
+    },
+    {
+        "name": "DS Ripto",
+        "map_locations": [
+        {
+            "map": "coast",
+            "x": 1771,
+            "y": 901
+        }
+        ],
+        "sections": [
+        {
+            "name": "Heart of Rhynocs n' Clocks",
+            "ref": "Dragon Shores (Coast)/DS Ripto"
+        }
+        ]
+    },
+    {
+        "name": "Dragon Shores (Oasis)",
+        "access_rules": ["quickescape, lamp, fireball, tornado"],
+        "map_locations": [
+        {
+            "map": "overview",
+            "x": 450,
+            "y": 530
+        }
+        ],
+        "sections": [
+        {
+            "name": "DS Oasis Toddler"
+        },
+        {
+            "name": "DS Byrd Mission",
+            "access_rules": ["minidynamo"]
+        },
+        {
+            "name": "DS Green Chest",
+            "access_rules": ["minidynamo, LeftGreen, RightGreen"]
+        }
+        ]
+    },
+    {
+        "name": "DS Oasis Toddler",
+        "map_locations": [
+        {
+            "map": "oasis",
+            "x": 885,
+            "y": 246
+        }
+        ],
+        "sections": [
+        {
+            "name": "Extenso-Grip Attachment",
+            "ref": "Dragon Shores (Oasis)/DS Oasis Toddler"
+        }
+        ]
+    },
+    {
+        "name": "DS Byrd Mission",
+        "map_locations": [
+        {
+            "map": "oasis",
+            "x": 419,
+            "y": 150
+        }
+        ],
+        "sections": [
+        {
+            "name": "Left Half of the Green Chest Key",
+            "ref": "Dragon Shores (Oasis)/DS Byrd Mission"
+        }
+        ]
+    },
+    {
+        "name": "DS Green Chest",
+        "map_locations": [
+        {
+            "map": "oasis",
+            "x": 608,
+            "y": 55
+        }
+        ],
+        "sections": [
+        {
+            "name": "The Roo Zetta Stone",
+            "ref": "Dragon Shores (Oasis)/DS Green Chest"
+        }
+        ]
+    }
+]

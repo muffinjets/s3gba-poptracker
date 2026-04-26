@@ -1,0 +1,610 @@
+{
+    "tracker_default": {
+        "type": "container",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+            {
+                "type": "dock",
+                "dock": "bottom",
+                "comment": "This is the container for the item grids including the headings.",
+                "content": [
+                {
+                    "type": "group",
+                    "header": "Ability Items",
+                    "dock": "left",
+                    "content": {
+                        "type": "layout",
+                        "key": "ability_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Hearts of the Lands",
+                    "dock": "left",
+                    "content": {
+                        "type": "layout",
+                        "key": "heart_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Quest Items",
+                    "dock": "left",
+                    "content": {
+                        "type": "layout",
+                        "key": "quest_grid"
+                    }
+                }
+                ]
+            },
+            {
+                "type": "tabbed",
+                "tabs": [
+                {
+                    "title": "Overview",
+                    "content": {
+                        "type": "map",
+                        "maps": ["overview"]
+                    }
+                },
+                {
+                    "title": "Dragon Nests Region",
+                    "content": {
+                        "type": "tabbed",
+                        "tabs": [
+                        {
+                            "title": "Dragon Shores (Nests)",
+                            "content": {
+                                "type": "map",
+                                "maps": ["nests"]
+                            }
+                        },
+                        {
+                            "title": "Fairy Library",
+                            "content": {
+                                "type": "map",
+                                "maps": ["fairylibrary"]
+                            }
+                        },
+                        {
+                            "title": "Banana Savannah",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Plantation",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["bananasavannah"]
+                                    }
+                                },
+                                {
+                                    "title": "Stealth Mission",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["bs_stealth"]
+                                    }
+                                }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Professor's Secret Lab",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Research Section",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["professorssecretlab"]
+                                    }
+                                },
+                                {
+                                    "title": "Secret Zoo",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["pl_zoo"]
+                                    }
+                                }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Rhynocs n' Clocks",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Rhynoc Retreat",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["rhynocsnclocks"]
+                                    }
+                                },
+                                {
+                                    "title": "Rescue Mission",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["rc_rescue"]
+                                    }
+                                }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Chateau Ripto",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Grand Expanse",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["chateauripto"]
+                                    }
+                                },
+                                {
+                                    "title": "Rescue Mission",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["cr_rescue"]
+                                    }
+                                }
+                                ]
+                            }
+                        }
+                        ]
+                    }
+                },
+                {
+                    "title": "Dragon Coast Region",
+                    "content": {
+                        "type": "tabbed",
+                        "tabs": [
+                        {
+                            "title": "Dragon Shores (Coast)",
+                            "content": {
+                                "type": "map",
+                                "maps": ["coast"]
+                            }
+                        },
+                        {
+                            "title": "Thieves' Guild",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Main Guild Hall",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["thievesguild"]
+                                    }
+                                },
+                                {
+                                    "title": "Stealth Mission",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["tg_stealth"]
+                                    }
+                                }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Yeti Serengeti",
+                            "content": {
+                                "type": "map",
+                                "maps": ["yetiserengeti"]
+                            }
+                        },
+                        {
+                            "title": "Byrd Barracks",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Headquarters",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["byrdbarracks"]
+                                    }
+                                },
+                                {
+                                    "title": "Rescue Mission",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["bb_rescue"]
+                                    }
+                                }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Rabbit Habitat",
+                            "content": {
+                                "type": "map",
+                                "maps": ["rabbithabitat"]
+                            }
+                        }
+                        ]
+                    }
+                },
+                {
+                    "title": "Dragonfly Oasis Region",
+                    "content": {
+                        "type": "tabbed",
+                        "tabs": [
+                        {
+                            "title": "Dragon Shores (Oasis)",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Oasis",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["oasis"]
+                                    }
+                                },
+                                {
+                                    "title": "Rescue Mission",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["ds_rescue"]
+                                    }
+                                }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Kangaroo Hoodoos",
+                            "content": {
+                                "type": "map",
+                                "maps": ["kangaroohoodoos"]
+                            }
+                        },
+                        {
+                            "title": "Cheetah Spot Spa",
+                            "content": {
+                                "type": "map",
+                                "maps": ["cheetahspotspa"]
+                            }
+                        },
+                        {
+                            "title": "Moneybags' Mansion",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Hall of Majesty",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["moneybagsmansion"]
+                                    }
+                                },
+                                {
+                                    "title": "Stealth Mission",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["mm_stealth"]
+                                    }
+                                }
+                                ]
+                            }
+                        }
+                        ]
+                    }
+                }
+                ]
+            }
+            ]
+        }
+    },
+    "tracker_vertical": {
+        "type": "container",
+        "content": {
+            "type": "dock",
+            "dropshadow": true,
+            "content": [
+            {
+                "type": "dock",
+                "dock": "left",
+                "comment": "This is the container for the item grids including the headings.",
+                "content": [
+                {
+                    "type": "group",
+                    "header": "Ability Items",
+                    "dock": "top",
+                    "content": {
+                        "type": "layout",
+                        "key": "ability_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Hearts of the Lands",
+                    "dock": "top",
+                    "content": {
+                        "type": "layout",
+                        "key": "heart_grid"
+                    }
+                },
+                {
+                    "type": "group",
+                    "header": "Quest Items",
+                    "dock": "top",
+                    "content": {
+                        "type": "layout",
+                        "key": "vertical_quest_grid"
+                    }
+                }
+                ]
+            },
+            {
+                "type": "tabbed",
+                "tabs": [
+                {
+                    "title": "Overview",
+                    "content": {
+                        "type": "map",
+                        "maps": ["overview"]
+                    }
+                },
+                {
+                    "title": "Dragon Nests Region",
+                    "content": {
+                        "type": "tabbed",
+                        "tabs": [
+                        {
+                            "title": "Dragon Shores (Nests)",
+                            "content": {
+                                "type": "map",
+                                "maps": ["nests"]
+                            }
+                        },
+                        {
+                            "title": "Fairy Library",
+                            "content": {
+                                "type": "map",
+                                "maps": ["fairylibrary"]
+                            }
+                        },
+                        {
+                            "title": "Banana Savannah",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Plantation",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["bananasavannah"]
+                                    }
+                                },
+                                {
+                                    "title": "Stealth Mission",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["bs_stealth"]
+                                    }
+                                }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Professor's Secret Lab",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Research Section",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["professorssecretlab"]
+                                    }
+                                },
+                                {
+                                    "title": "Secret Zoo",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["pl_zoo"]
+                                    }
+                                }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Rhynocs n' Clocks",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Rhynoc Retreat",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["rhynocsnclocks"]
+                                    }
+                                },
+                                {
+                                    "title": "Rescue Mission",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["rc_rescue"]
+                                    }
+                                }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Chateau Ripto",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Grand Expanse",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["chateauripto"]
+                                    }
+                                },
+                                {
+                                    "title": "Rescue Mission",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["cr_rescue"]
+                                    }
+                                }
+                                ]
+                            }
+                        }
+                        ]
+                    }
+                },
+                {
+                    "title": "Dragon Coast Region",
+                    "content": {
+                        "type": "tabbed",
+                        "tabs": [
+                        {
+                            "title": "Dragon Shores (Coast)",
+                            "content": {
+                                "type": "map",
+                                "maps": ["coast"]
+                            }
+                        },
+                        {
+                            "title": "Thieves' Guild",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Main Guild Hall",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["thievesguild"]
+                                    }
+                                },
+                                {
+                                    "title": "Stealth Mission",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["tg_stealth"]
+                                    }
+                                }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Yeti Serengeti",
+                            "content": {
+                                "type": "map",
+                                "maps": ["yetiserengeti"]
+                            }
+                        },
+                        {
+                            "title": "Byrd Barracks",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Headquarters",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["byrdbarracks"]
+                                    }
+                                },
+                                {
+                                    "title": "Rescue Mission",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["bb_rescue"]
+                                    }
+                                }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Rabbit Habitat",
+                            "content": {
+                                "type": "map",
+                                "maps": ["rabbithabitat"]
+                            }
+                        }
+                        ]
+                    }
+                },
+                {
+                    "title": "Dragonfly Oasis Region",
+                    "content": {
+                        "type": "tabbed",
+                        "tabs": [
+                        {
+                            "title": "Dragon Shores (Oasis)",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Oasis",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["oasis"]
+                                    }
+                                },
+                                {
+                                    "title": "Rescue Mission",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["ds_rescue"]
+                                    }
+                                }
+                                ]
+                            }
+                        },
+                        {
+                            "title": "Kangaroo Hoodoos",
+                            "content": {
+                                "type": "map",
+                                "maps": ["kangaroohoodoos"]
+                            }
+                        },
+                        {
+                            "title": "Cheetah Spot Spa",
+                            "content": {
+                                "type": "map",
+                                "maps": ["cheetahspotspa"]
+                            }
+                        },
+                        {
+                            "title": "Moneybags' Mansion",
+                            "content": {
+                                "type": "tabbed",
+                                "tabs": [
+                                {
+                                    "title": "Hall of Majesty",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["moneybagsmansion"]
+                                    }
+                                },
+                                {
+                                    "title": "Stealth Mission",
+                                    "content": {
+                                        "type": "map",
+                                        "maps": ["mm_stealth"]
+                                    }
+                                }
+                                ]
+                            }
+                        }
+                        ]
+                    }
+                }
+                ]
+            }
+            ]
+        }
+    }
+}

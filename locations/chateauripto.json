@@ -1,0 +1,120 @@
+[
+    {
+        "name": "Chateau Ripto",
+        "access_rules": ["top, minidynamo, headbash"],
+        "map_locations": [
+        {
+            "map": "overview",
+            "x": 665,
+            "y": 453
+        }
+        ],
+        "sections": [
+        {
+            "name": "CR Moneybags"
+        },
+        {
+            "name": "CR Moneybags Vault"
+        },
+        {
+            "name": "CR Byrd Mission"
+        },
+        {
+            "name": "CR Yellow Chest",
+            "access_rules": ["LeftYellow, RightYellow"]
+        },
+        {
+            "name": "CR Ripto",
+            "access_rules": ["fireball, ice, mint"]
+        },
+        {
+            "name": "CR Ripto 2",
+            "access_rules": ["fireball, ice, mint"]
+        }
+        ]
+    },
+    {
+        "name": "CR Moneybags Vault",
+        "map_locations": [
+        {
+            "map": "chateauripto",
+            "x": 2061,
+            "y": 350
+        }
+        ],
+        "sections": [
+        {
+            "name": "Roo Pottery",
+            "ref": "Chateau Ripto/CR Moneybags Vault"
+        }
+        ]
+    },
+    {
+        "name": "CR Byrd Mission",
+        "map_locations": [
+        {
+            "map": "chateauripto",
+            "x": 1059,
+            "y": 149
+        }
+        ],
+        "sections": [
+        {
+            "name": "Right Half of the Yellow Chest Key",
+            "ref": "Chateau Ripto/CR Byrd Mission"
+        }
+        ]
+    },
+    {
+        "name": "CR Ripto",
+        "map_locations": [
+        {
+            "map": "chateauripto",
+            "x": 2305,
+            "y": 128
+        }
+        ],
+        "sections": [
+        {
+            "name": "Heart of Chateau Ripto",
+            "ref": "Chateau Ripto/CR Ripto"
+        },
+        {
+            "name": "Spot-On Warp Device",
+            "ref": "Chateau Ripto/CR Ripto 2"
+        }
+        ]
+    },
+    {
+        "name": "CR Moneybags",
+        "map_locations": [
+        {
+            "map": "chateauripto",
+            "x": 1950,
+            "y": 150
+        }
+        ],
+        "sections": [
+        {
+            "name": "Magic Gold Dust",
+            "ref": "Chateau Ripto/CR Moneybags"
+        }
+        ]
+    },
+    {
+        "name": "CR Yellow Chest",
+        "map_locations": [
+        {
+            "map": "chateauripto",
+            "x": 1106,
+            "y": 169
+        }
+        ],
+        "sections": [
+        {
+            "name": "Magic Red Dust",
+            "ref": "Chateau Ripto/CR Yellow Chest"
+        }
+        ]
+    }
+]

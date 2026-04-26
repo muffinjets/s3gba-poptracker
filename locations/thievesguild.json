@@ -1,0 +1,169 @@
+[
+    {
+        "name": "Thieves' Guild",
+        "access_rules": ["quickescape, lamp"],
+        "map_locations": [
+        {
+            "map": "overview",
+            "x": 67,
+            "y": 308
+        }
+        ],
+        "sections": [
+        {
+            "name": "TG Toddler"
+        },
+        {
+            "name": "TG Catch Fast Eddie"
+        },
+        {
+            "name": "TG Moneybags Vault"
+        },
+        {
+            "name": "TG Win the Race"
+        },
+        {
+            "name": "TG Moneybags"
+        },
+        {
+            "name": "TG Agent 9 Mission"
+        },
+        {
+            "name": "TG Purple Chest",
+            "access_rules": ["LeftPurple, RightPurple"]
+        },
+        {
+            "name": "TG Find all the Thief Tools",
+            "access_rules": ["tool1, tool2, tool3, tool4, tool5, tool6, tool7"]
+        }
+        ]
+    },
+    {
+        "name": "TG Toddler",
+        "map_locations": [
+        {
+            "map": "thievesguild",
+            "x": 1436,
+            "y": 317
+        }
+        ],
+        "sections": [
+        {
+            "name": "Magic Rainbow Dust",
+            "ref": "Thieves' Guild/TG Toddler"
+        }
+        ]
+    },
+    {
+        "name": "TG Catch Fast Eddie",
+        "map_locations": [
+        {
+            "map": "thievesguild",
+            "x": 804,
+            "y": 206
+        }
+        ],
+        "sections": [
+        {
+            "name": "Agent 9 Action Figure",
+            "ref": "Thieves' Guild/TG Catch Fast Eddie"
+        }
+        ]
+    },
+    {
+        "name": "TG Moneybags Vault",
+        "map_locations": [
+        {
+            "map": "thievesguild",
+            "x": 230,
+            "y": 280
+        }
+        ],
+        "sections": [
+        {
+            "name": "Magic Banana Dust",
+            "ref": "Thieves' Guild/TG Moneybags Vault"
+        }
+        ]
+    },
+    {
+        "name": "TG Win the Race",
+        "map_locations": [
+        {
+            "map": "thievesguild",
+            "x": 132,
+            "y": 351
+        }
+        ],
+        "sections": [
+        {
+            "name": "The Arctic Cross",
+            "ref": "Thieves' Guild/TG Win the Race"
+        }
+        ]
+    },
+    {
+        "name": "TG Moneybags",
+        "map_locations": [
+        {
+            "map": "thievesguild",
+            "x": 1730,
+            "y": 333
+        }
+        ],
+        "sections": [
+        {
+            "name": "Quick-N-Quiet Motivator Unit",
+            "ref": "Thieves' Guild/TG Moneybags"
+        }
+        ]
+    },
+    {
+        "name": "TG Agent 9 Mission",
+        "map_locations": [
+        {
+            "map": "thievesguild",
+            "x": 1460,
+            "y": 188
+        }
+        ],
+        "sections": [
+        {
+            "name": "Left Half of the Red Chest Key",
+            "ref": "Thieves' Guild/TG Agent 9 Mission"
+        }
+        ]
+    },
+    {
+        "name": "TG Purple Chest",
+        "map_locations": [
+        {
+            "map": "thievesguild",
+            "x": 602,
+            "y": 260
+        }
+        ],
+        "sections": [
+        {
+            "name": "Hip Neon Trophy",
+            "ref": "Thieves' Guild/TG Purple Chest"
+        }
+        ]
+    },
+    {
+        "name": "TG Find all the Thief Tools",
+        "map_locations": [
+        {
+            "map": "thievesguild",
+            "x": 895,
+            "y": 707
+        }
+        ],
+        "sections": [
+        {
+            "name": "Heart of the Thieves' Guild",
+            "ref": "Thieves' Guild/TG Find all the Thief Tools"
+        }
+        ]
+    }
+]

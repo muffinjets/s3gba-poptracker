@@ -1,0 +1,718 @@
+[
+    {
+        "name": "Ice Fairy Scroll",
+        "type": "toggle",
+        "img": "images/items/IceFairyScroll.png",
+        "codes": "ice, IceFairyScroll"
+    },
+    {
+        "name": "Fairy Spell Book",
+        "type": "toggle",
+        "img": "images/items/FairySpellBook.png",
+        "codes": "quickescape, FairySpellBook"
+    },
+    {
+        "name": "Yeti Lamp",
+        "type": "toggle",
+        "img": "images/items/YetiLamp.png",
+        "codes": "lamp, YetiLamp"
+    },
+    {
+        "name": "Super Breath Mint",
+        "type": "toggle",
+        "img": "images/items/SuperBreathMint.png",
+        "codes": "ice2, mint, SuperBreathMint"
+    },
+    {
+        "name": "Magic Spinning Top",
+        "type": "toggle",
+        "img": "images/items/MagicSpinningTop.png",
+        "codes": "top, tornado, MagicSpinningTop"
+    },
+    {
+        "name": "Hot Banana Pepper",
+        "type": "toggle",
+        "img": "images/items/HotBananaPepper.png",
+        "codes": "fire2, fireball, pepper, HotBananaPepper"
+    },
+    {
+        "name": "Kangaroo Carving",
+        "type": "toggle",
+        "img": "images/items/KangarooCarving.png",
+        "codes": "headbash, KangarooCarving"
+    },
+    {
+        "name": "Mini Dynamo",
+        "type": "toggle",
+        "img": "images/items/MiniDynamo.png",
+        "codes": "dynamo, tornado2, MiniDynamo"
+    },
+    {
+        "name": "Super Health Bar",
+        "type": "toggle",
+        "img": "images/items/SuperHealthBar.png",
+        "codes": "SuperHealthBar"
+    },
+    {
+        "name": "Phoenix Shades",
+        "type": "toggle",
+        "img": "images/items/PhoenixShades.png",
+        "codes": "shades, PhoenixShades"
+    },
+    {
+        "name": "Antennae Extensions",
+        "type": "toggle",
+        "img": "images/items/AntennaeExtensions.png",
+        "codes": "antennae, AntennaeExtensions"
+    },
+    {
+        "name": "Spot-On Warp Device",
+        "type": "toggle",
+        "img": "images/items/SpotOnWarpDevice.png",
+        "codes": "warp, SpotOnWarpDevice"
+    },
+    {
+        "name": "Left Half of the Red Chest Key",
+        "type": "toggle",
+        "img": "images/items/LeftRed.png",
+        "codes": "LeftRed"
+    },
+    {
+        "name": "Right Half of the Red Chest Key",
+        "type": "toggle",
+        "img": "images/items/RightRed.png",
+        "codes": "RightRed"
+    },
+    {
+        "name": "Red Chest Key",
+        "type": "composite_toggle",
+        "item_left": "LeftRed",
+        "item_right": "RightRed",
+        "codes": "RedKey, RedChestKey",
+        "images": [
+            {
+                "left": false,
+                "right": false,
+                "img": "images/items/KeyDisabled.png"
+            },
+            {
+                "left": true,
+                "right": false,
+                "img": "images/items/LeftRed.png"
+            },
+            {
+                "left": false,
+                "right": true,
+                "img": "images/items/RightRed.png"
+            },
+            {
+                "left": true,
+                "right": true,
+                "img": "images/items/RedChestKey.png"
+            }
+        ]
+    },
+    {
+        "name": "Left Half of the Green Chest Key",
+        "type": "toggle",
+        "img": "images/items/LeftGreen.png",
+        "codes": "LeftGreen"
+    },
+    {
+        "name": "Right Half of the Green Chest Key",
+        "type": "toggle",
+        "img": "images/items/RightGreen.png",
+        "codes": "RightGreen"
+    },
+    {
+        "name": "Green Chest Key",
+        "type": "composite_toggle",
+        "item_left": "LeftGreen",
+        "item_right": "RightGreen",
+        "codes": "GreenKey, GreenChestKey",
+        "images": [
+            {
+                "left": false,
+                "right": false,
+                "img": "images/items/KeyDisabled.png"
+            },
+            {
+                "left": true,
+                "right": false,
+                "img": "images/items/LeftGreen.png"
+            },
+            {
+                "left": false,
+                "right": true,
+                "img": "images/items/RightGreen.png"
+            },
+            {
+                "left": true,
+                "right": true,
+                "img": "images/items/GreenChestKey.png"
+            }
+        ]
+    },
+    {
+        "name": "Left Half of the Purple Chest Key",
+        "type": "toggle",
+        "img": "images/items/LeftPurple.png",
+        "codes": "LeftPurple"
+    },
+    {
+        "name": "Right Half of the Purple Chest Key",
+        "type": "toggle",
+        "img": "images/items/RightPurple.png",
+        "codes": "RightPurple"
+    },
+    {
+        "name": "Purple Chest Key",
+        "type": "composite_toggle",
+        "item_left": "LeftPurple",
+        "item_right": "RightPurple",
+        "codes": "PurpleKey, PurpleChestKey",
+        "images": [
+            {
+                "left": false,
+                "right": false,
+                "img": "images/items/KeyDisabled.png"
+            },
+            {
+                "left": true,
+                "right": false,
+                "img": "images/items/LeftPurple.png"
+            },
+            {
+                "left": false,
+                "right": true,
+                "img": "images/items/RightPurple.png"
+            },
+            {
+                "left": true,
+                "right": true,
+                "img": "images/items/PurpleChestKey.png"
+            }
+        ]
+    },
+    {
+        "name": "Left Half of the Yellow Chest Key",
+        "type": "toggle",
+        "img": "images/items/LeftYellow.png",
+        "codes": "LeftYellow"
+    },
+    {
+        "name": "Right Half of the Yellow Chest Key",
+        "type": "toggle",
+        "img": "images/items/RightYellow.png",
+        "codes": "RightYellow"
+    },
+    {
+        "name": "Yellow Chest Key",
+        "type": "composite_toggle",
+        "item_left": "LeftYellow",
+        "item_right": "RightYellow",
+        "codes": "YellowKey, YellowChestKey",
+        "images": [
+            {
+                "left": false,
+                "right": false,
+                "img": "images/items/KeyDisabled.png"
+            },
+            {
+                "left": true,
+                "right": false,
+                "img": "images/items/LeftYellow.png"
+            },
+            {
+                "left": false,
+                "right": true,
+                "img": "images/items/RightYellow.png"
+            },
+            {
+                "left": true,
+                "right": true,
+                "img": "images/items/YellowChestKey.png"
+            }
+        ]
+    },
+    {
+        "name": "Magic Rainbow Dust",
+        "type": "toggle",
+        "img": "images/items/MagicRainbowDust.png",
+        "codes": "MagicRainbowDust"
+    },
+    {
+        "name": "Magic Red Dust",
+        "type": "toggle",
+        "img": "images/items/MagicRedDust.png",
+        "codes": "MagicRedDust"
+    },
+    {
+        "name": "Magic Green Dust",
+        "type": "toggle",
+        "img": "images/items/MagicGreenDust.png",
+        "codes": "MagicGreenDust"
+    },
+    {
+        "name": "Magic Blue Dust",
+        "type": "toggle",
+        "img": "images/items/MagicBlueDust.png",
+        "codes": "MagicBlueDust"
+    },
+    {
+        "name": "Magic Gold Dust",
+        "type": "toggle",
+        "img": "images/items/MagicGoldDust.png",
+        "codes": "MagicGoldDust"
+    },
+    {
+        "name": "Spyro Action Figure",
+        "type": "toggle",
+        "img": "images/items/SpyroActionFigure.png",
+        "codes": "toy1, SpyroActionFigure"
+    },
+    {
+        "name": "Ripto Action Figure",
+        "type": "toggle",
+        "img": "images/items/RiptoActionFigure.png",
+        "codes": "toy2, RiptoActionFigure"
+    },
+    {
+        "name": "Bianca Action Figure",
+        "type": "toggle",
+        "img": "images/items/BiancaActionFigure.png",
+        "codes": "toy3, BiancaActionFigure"
+    },
+    {
+        "name": "Hunter Action Figure",
+        "type": "toggle",
+        "img": "images/items/HunterActionFigure.png",
+        "codes": "toy4, HunterActionFigure"
+    },
+    {
+        "name": "Sheila Action Figure",
+        "type": "toggle",
+        "img": "images/items/SheilaActionFigure.png",
+        "codes": "toy5, SheilaActionFigure"
+    },
+    {
+        "name": "Sgt. Byrd Action Figure",
+        "type": "toggle",
+        "img": "images/items/SgtByrdActionFigure.png",
+        "codes": "toy6, SgtByrdActionFigure"
+    },
+    {
+        "name": "Agent 9 Action Figure",
+        "type": "toggle",
+        "img": "images/items/Agent9ActionFigure.png",
+        "codes": "toy7, Agent9ActionFigure"
+    },
+    {
+        "name": "Extenso-Grip Attachment",
+        "type": "toggle",
+        "img": "images/items/ExtensoGripAttachment.png",
+        "codes": "machine1, ExtensoGripAttachment"
+    },
+    {
+        "name": "Book-B-Gone Storage Unit",
+        "type": "toggle",
+        "img": "images/items/BookBGoneStorageUnit.png",
+        "codes": "machine2, BookBGoneStorageUnit"
+    },
+    {
+        "name": "No-Sneeze Dusting Armature",
+        "type": "toggle",
+        "img": "images/items/NoSneezeDustingArmature.png",
+        "codes": "machine3, NoSneezeDustingArmature"
+    },
+    {
+        "name": "Eye-Spy Binding Scanner",
+        "type": "toggle",
+        "img": "images/items/EyeSpyBindingScanner.png",
+        "codes": "machine4, EyeSpyBindingScanner"
+    },
+    {
+        "name": "Quick-N-Quiet Motivator Unit",
+        "type": "toggle",
+        "img": "images/items/QuickNQuietMotivatorUnit.png",
+        "codes": "machine5, QuickNQuietMotivatorUnit"
+    },
+    {
+        "name": "Sup-R-Smart Sorting Module",
+        "type": "toggle",
+        "img": "images/items/SupRSmartSortingModule.png",
+        "codes": "machine6, SupRSmartSortingModule"
+    },
+    {
+        "name": "Dusty User Manual",
+        "type": "toggle",
+        "img": "images/items/DustyUserManual.png",
+        "codes": "machine7, DustyUserManual"
+    },
+    {
+        "name": "Yeti Hair CLimbing Rope",
+        "type": "toggle",
+        "img": "images/items/YetiHairClimbingRope.png",
+        "codes": "equipment1, YetiHairClimbingRope"
+    },
+    {
+        "name": "Lucky Climbing Hat",
+        "type": "toggle",
+        "img": "images/items/LuckyClimbingHat.png",
+        "codes": "equipment2, LuckyClimbingHat"
+    },
+    {
+        "name": "Big Left Climbing Shoe",
+        "type": "toggle",
+        "img": "images/items/BigLeftClimbingShoe.png",
+        "codes": "equipment3, BigLeftClimbingShoe"
+    },
+    {
+        "name": "Another Left Climbing Shoe",
+        "type": "toggle",
+        "img": "images/items/AnotherLeftClimbingShoe.png",
+        "codes": "equipment4, AnotherLeftClimbingShoe"
+    },
+    {
+        "name": "Huge Left Climbing Glove",
+        "type": "toggle",
+        "img": "images/items/HugeLeftClimbingGlove.png",
+        "codes": "equipment5, HugeLeftClimbingGlove"
+    },
+    {
+        "name": "Huge Right Climbing Glove",
+        "type": "toggle",
+        "img": "images/items/HugeRightClimbingGlove.png",
+        "codes": "equipment6, HugeRightClimbingGlove"
+    },
+    {
+        "name": "Enormous Mountaineer's Axe",
+        "type": "toggle",
+        "img": "images/items/EnormousMountaineersAxe.png",
+        "codes": "equipment7, EnormousMountaineersAxe"
+    },
+    {
+        "name": "Medal of Liberation",
+        "type": "toggle",
+        "img": "images/items/MedalOfLiberation.png",
+        "codes": "medal1, MedalOfLiberation"
+    },
+    {
+        "name": "The Arctic Cross",
+        "type": "toggle",
+        "img": "images/items/TheArcticCross.png",
+        "codes": "medal2, TheArcticCross"
+    },
+    {
+        "name": "Hero's Heart Medal",
+        "type": "toggle",
+        "img": "images/items/HerosHeartMedal.png",
+        "codes": "medal3, HerosHeartMedal"
+    },
+    {
+        "name": "Medal of Honor",
+        "type": "toggle",
+        "img": "images/items/MedalOfHonor.png",
+        "codes": "medal4, MedalOfHonor"
+    },
+    {
+        "name": "Victory Medal",
+        "type": "toggle",
+        "img": "images/items/VictoryMedal.png",
+        "codes": "medal5, VictoryMedal"
+    },
+    {
+        "name": "Military Cross",
+        "type": "toggle",
+        "img": "images/items/MilitaryCross.png",
+        "codes": "medal6, MilitaryCross"
+    },
+    {
+        "name": "The Order of Merit",
+        "type": "toggle",
+        "img": "images/items/TheOrderOfMerit.png",
+        "codes": "medal7, TheOrderOfMerit.png"
+    },
+    {
+        "name": "Master's Stethoscope",
+        "type": "toggle",
+        "img": "images/items/MastersStethoscope.png",
+        "codes": "tool1, MastersStethoscope"
+    },
+    {
+        "name": "Master's Nail File",
+        "type": "toggle",
+        "img": "images/items/MastersNailFile.png",
+        "codes": "tool2, MastersNailFile"
+    },
+    {
+        "name": "Master's Hand Drill",
+        "type": "toggle",
+        "img": "images/items/MastersHandDrill.png",
+        "codes": "tool3, MastersHandDrill"
+    },
+    {
+        "name": "Master's Crowbar",
+        "type": "toggle",
+        "img": "images/items/MastersCrowbar.png",
+        "codes": "tool4, MastersCrowbar"
+    },
+    {
+        "name": "Master's Sledgehammer",
+        "type": "toggle",
+        "img": "images/items/MastersSledgehammer.png",
+        "codes": "tool5, MastersSledgehammer"
+    },
+    {
+        "name": "Master's Fuse",
+        "type": "toggle",
+        "img": "images/items/MastersFuse.png",
+        "codes": "tool6, MastersFuse"
+    },
+    {
+        "name": "Master's Explosives",
+        "type": "toggle",
+        "img": "images/items/MastersExplosives.png",
+        "codes": "tool7, MastersExplosives"
+    },
+    {
+        "name": "Dragon Star",
+        "type": "toggle",
+        "img": "images/items/DragonStar.png",
+        "codes": "plant1, DragonStar"
+    },
+    {
+        "name": "Yeti Lettuce",
+        "type": "toggle",
+        "img": "images/items/YetiLettuce.png",
+        "codes": "plant2, YetiLettuce"
+    },
+    {
+        "name": "Snow Lily",
+        "type": "toggle",
+        "img": "images/items/SnowLily.png",
+        "codes": "plant3, SnowLily"
+    },
+    {
+        "name": "Ape Grapes",
+        "type": "toggle",
+        "img": "images/items/ApeGrapes.png",
+        "codes": "plant4, ApeGrapes"
+    },
+    {
+        "name": "Roo's Rose",
+        "type": "toggle",
+        "img": "images/items/RoosRose.png",
+        "codes": "plant5, RoosRose"
+    },
+    {
+        "name": "Money Tree",
+        "type": "toggle",
+        "img": "images/items/MoneyTree.png",
+        "codes": "plant6, MoneyTree"
+    },
+    {
+        "name": "Sunspot Bloom",
+        "type": "toggle",
+        "img": "images/items/SunspotBloom.png",
+        "codes": "plant7, SunspotBloom"
+    },
+    {
+        "name": "Banana Ripening Agent",
+        "type": "toggle",
+        "img": "images/items/BananaRipeningAgent.png",
+        "codes": "ingredient1, BananaRipeningAgent"
+    },
+    {
+        "name": "Magic Banana Dust",
+        "type": "toggle",
+        "img": "images/items/MagicBananaDust.png",
+        "codes": "ingredient2, MagicBananaDust"
+    },
+    {
+        "name": "Flavor Booster",
+        "type": "toggle",
+        "img": "images/items/FlavorBooster.png",
+        "codes": "ingredient3, FlavorBooster"
+    },
+    {
+        "name": "Soil Stabilizer",
+        "type": "toggle",
+        "img": "images/items/SoilStabilizer.png",
+        "codes": "ingredient4, SoilStabilizer"
+    },
+    {
+        "name": "Peel Strengthener",
+        "type": "toggle",
+        "img": "images/items/PeelStrengthener.png",
+        "codes": "ingredient5, PeelStrengthener"
+    },
+    {
+        "name": "Banana Gro-Growth",
+        "type": "toggle",
+        "img": "images/items/BananaGroGrowth.png",
+        "codes": "ingredient6, BananaGroGrowth"
+    },
+    {
+        "name": "Yellow Dye #5",
+        "type": "toggle",
+        "img": "images/items/YellowDye5.png",
+        "codes": "ingredient7, YellowDye5"
+    },
+    {
+        "name": "The Roo Zetta Stone",
+        "type": "toggle",
+        "img": "images/items/TheRooZettaStone.png",
+        "codes": "artifact1, TheRooZettaStone"
+    },
+    {
+        "name": "Kangaroo History",
+        "type": "toggle",
+        "img": "images/items/KangarooHistory.png",
+        "codes": "artifact2, KangarooHistory"
+    },
+    {
+        "name": "The Roo Jewel",
+        "type": "toggle",
+        "img": "images/items/TheRooJewel.png",
+        "codes": "artifact3, TheRooJewel"
+    },
+    {
+        "name": "Digeri-Doodle",
+        "type": "toggle",
+        "img": "images/items/DigeriDoodle.png",
+        "codes": "artifact4, DigeriDoodle"
+    },
+    {
+        "name": "Ancient Travel Brochure",
+        "type": "toggle",
+        "img": "images/items/AncientTravelBrochure.png",
+        "codes": "artifact5, AncientTravelBrochure"
+    },
+    {
+        "name": "Ceremonial Boomerang",
+        "type": "toggle",
+        "img": "images/items/CeremonialBoomerang.png",
+        "codes": "artifact6, CeremonialBoomerang"
+    },
+    {
+        "name": "Roo Pottery",
+        "type": "toggle",
+        "img": "images/items/RooPottery.png",
+        "codes": "artifact7, RooPottery"
+    },
+    {
+        "name": "Hypnotic Light Organ",
+        "type": "toggle",
+        "img": "images/items/HypnoticLightOrgan.png",
+        "codes": "hipness1, HypnoticLightOrgan"
+    },
+    {
+        "name": "Totally Retro Uniform",
+        "type": "toggle",
+        "img": "images/items/TotallyRetroUniform.png",
+        "codes": "hipness2, TotallyRetroUniform"
+    },
+    {
+        "name": "Hip Neon Trophy",
+        "type": "toggle",
+        "img": "images/items/HipNeonTrophy.png",
+        "codes": "hipness3, HipNeonTrophy"
+    },
+    {
+        "name": "Way Cool Lava Lamp",
+        "type": "toggle",
+        "img": "images/items/WayCoolLavaLamp.png",
+        "codes": "hipness4, WayCoolLavaLamp"
+    },
+    {
+        "name": "Groovy Painting",
+        "type": "toggle",
+        "img": "images/items/GroovyPainting.png",
+        "codes": "hipness5, GroovyPainting"
+    },
+    {
+        "name": "Wild Snowboard",
+        "type": "toggle",
+        "img": "images/items/WildSnowboard.png",
+        "codes": "hipness6, WildSnowboard"
+    },
+    {
+        "name": "Awesome Dragonfly Wing",
+        "type": "toggle",
+        "img": "images/items/AwesomeDragonflyWing.png",
+        "codes": "hipness7, AwesomeDragonflyWing"
+    },
+    {
+        "name": "Heart of the Dragon Shores",
+        "type": "toggle",
+        "img": "images/items/HeartOfTheDragonShores.png",
+        "codes": "heart1, HeartOfTheDragonShores"
+    },
+    {
+        "name": "Heart of the Fairy Library",
+        "type": "toggle",
+        "img": "images/items/HeartOfTheFairyLibrary.png",
+        "codes": "heart2"
+    },
+    {
+        "name": "Heart of the Yeti Serengeti",
+        "type": "toggle",
+        "img": "images/items/HeartOfTheYetiSerengeti.png",
+        "codes": "heart3, HeartOfTheYetiSerengeti"
+    },
+    {
+        "name": "Heart of Byrd Barracks",
+        "type": "toggle",
+        "img": "images/items/HeartOfByrdBarracks.png",
+        "codes": "heart4, HeartOfByrdBarracks"
+    },
+    {
+        "name": "Heart of the Thieves' Guild",
+        "type": "toggle",
+        "img": "images/items/HeartOfTheThievesGuild.png",
+        "codes": "heart5, HeartOfTheThievesGuild"
+    },
+    {
+        "name": "Heart of the Rabbit Habitat",
+        "type": "toggle",
+        "img": "images/items/HeartOfTheRabbitHabitat.png",
+        "codes": "heart6, HeartOfTheRabbitHabitat"
+    },
+    {
+        "name": "Heart of the Banana Savannah",
+        "type": "toggle",
+        "img": "images/items/HeartOfTheBananaSavannah.png",
+        "codes": "heart7, HeartOfTheBananaSavannah"
+    },
+    {
+        "name": "Heart of the Kangaroo Hoodoos",
+        "type": "toggle",
+        "img": "images/items/HeartOfTheKangarooHoodoos.png",
+        "codes": "heart8, HeartOfTheKangarooHoodoos"
+    },
+    {
+        "name": "Heart of Moneybags' Mansion",
+        "type": "toggle",
+        "img": "images/items/HeartOfMoneybagsMansion.png",
+        "codes": "heart9, HeartOfMoneybagsMansion"
+    },
+    {
+        "name": "Heart of the Cheetah Spot Spa",
+        "type": "toggle",
+        "img": "images/items/HeartOfTheCheetahSpotSpa.png",
+        "codes": "heart10, HeartOfTheCheetahSpotSpa"
+    },
+    {
+        "name": "Heart of Rhynocs n' Clocks",
+        "type": "toggle",
+        "img": "images/items/HeartOfRhynocsNClocks.png",
+        "codes": "heart11, HeartOfRhynocsNClocks"
+    },
+    {
+        "name": "Heart of Chateau Ripto",
+        "type": "toggle",
+        "img": "images/items/HeartOfChateauRipto.png",
+        "codes": "heart12, HeartOfChateauRipto"
+    }
+]

@@ -1,0 +1,152 @@
+[
+    {
+        "name": "overview",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/overview_notebook.png"
+    },
+    {
+        "name": "nests",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/nests.png"
+    },
+    {
+        "name": "fairylibrary",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/fairylibrary.png"
+    },
+    {
+        "name": "bananasavannah",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/bananasavannah.png"
+    },
+    {
+        "name": "professorssecretlab",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/professorssecretlab.png"
+    },
+    {
+        "name": "pl_zoo",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/pl_zoo.png"
+    },
+    {
+        "name": "rhynocsnclocks",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/rhynocsnclocks.png"
+    },
+    {
+        "name": "rc_rescue",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/rc_rescue.png"
+    },
+    {
+        "name": "chateauripto",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/chateauripto.png"
+    },
+    {
+        "name": "cr_rescue",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/cr_rescue.png"
+    },
+    {
+        "name": "bs_stealth",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/bs_stealth.png"
+    },
+    {
+        "name": "coast",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/coast.png"
+    },
+    {
+        "name": "thievesguild",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/thievesguild.png"
+    },
+    {
+        "name":  "tg_stealth",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/tg_stealth.png"
+    },
+    {
+        "name": "yetiserengeti",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/yetiserengeti.png"
+    },
+    {
+        "name": "byrdbarracks",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/byrdbarracks.png"
+    },
+    {
+        "name": "bb_rescue",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/bb_rescue.png"
+    },
+    {
+        "name": "rabbithabitat",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/rabbithabitat.png"
+    },
+    {
+        "name": "oasis",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/oasis.png"
+    },
+    {
+        "name": "ds_rescue",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/ds_rescue.png"
+    },
+    {
+        "name": "cheetahspotspa",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/cheetahspotspa.png"
+    },
+    {
+        "name": "cs_stealth",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/cs_stealth.png"
+    },
+    {
+        "name": "moneybagsmansion",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/moneybagsmansion.png"
+    },
+    {
+        "name": "mm_stealth",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/mm_stealth.png"
+    },
+    {
+        "name": "kangaroohoodoos",
+        "location_size": 40,
+        "location_border_thickness": 9,
+        "img": "images/maps/kangaroohoodoos.png"
+    }
+]

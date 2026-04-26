@@ -1,0 +1,132 @@
+[
+    {
+        "name": "Rhynocs n' Clocks",
+        "access_rules": ["top, minidynamo"],
+        "map_locations": [
+        {
+            "map": "overview",
+            "x": 665,
+            "y": 383
+        }
+        ],
+        "sections": [
+        {
+            "name": "RC Toddler"
+        },
+        {
+            "name": "RC Whack-a-Rhynoc"
+        },
+        {
+            "name": "RC Byrd Mission"
+        },
+        {
+            "name": "RC Chest on the Far Right",
+            "access_rules": ["LeftYellow, RightYellow"]
+        },
+        {
+            "name": "RC Chest on the Left Peak",
+            "access_rules": ["LeftYellow, RightYellow"]
+        },
+        {
+            "name": "RC Purple Chest",
+            "access_rules": ["LeftPurple, RightPurple"]
+        }
+        ]
+    },
+    {
+        "name": "RC Purple Chest",
+        "map_locations": [
+        {
+            "map": "rhynocsnclocks",
+            "x": 512,
+            "y": 135
+        }
+        ],
+        "sections": [
+        {
+            "name": "Banana Gro-Growth",
+            "ref": "Rhynocs n' Clocks/RC Purple Chest"
+        }
+        ]
+    },
+    {
+        "name": "RC Toddler",
+        "map_locations": [
+        {
+            "map": "rhynocsnclocks",
+            "x": 2210,
+            "y": 1612
+        }
+        ],
+        "sections": [
+        {
+            "name": "Antennae Extensions",
+            "ref": "Rhynocs n' Clocks/RC Toddler"
+        }
+        ]
+    },
+    {
+        "name": "RC Whack-a-Rhynoc",
+        "map_locations": [
+        {
+            "map": "rhynocsnclocks",
+            "x": 508,
+            "y": 422
+        }
+        ],
+        "sections": [
+        {
+            "name": "The Order of Merit",
+            "ref": "Rhynocs n' Clocks/RC Whack-a-Rhynoc"
+        }
+        ]
+    },
+    {
+        "name": "RC Byrd Mission",
+        "map_locations": [
+        {
+            "map": "rhynocsnclocks",
+            "x": 1347,
+            "y": 260
+        }
+        ],
+        "sections": [
+        {
+            "name": "Right Half of the Purple Chest Key",
+            "ref": "Rhynocs n' Clocks/RC Byrd Mission"
+        }
+        ]
+    },
+    {
+        "name": "RC Chest on the Far Right",
+        "map_locations": [
+        {
+            "map": "rhynocsnclocks",
+            "x": 1887,
+            "y": 300
+        }
+        ],
+        "sections": [
+        {
+            "name": "Magic Blue Dust",
+            "ref": "Rhynocs n' Clocks/RC Chest on the Far Right"
+        }
+        ]
+    },
+    {
+        "name": "RC Chest on the Left Peak",
+        "map_locations": [
+        {
+            "map": "rhynocsnclocks",
+            "x": 512,
+            "y": 252
+        }
+        ],
+        "sections": [
+        {
+            "name": "Magic Green Dust",
+            "ref": "Rhynocs n' Clocks/RC Chest on the Left Peak"
+        }
+        ]
+    }
+]

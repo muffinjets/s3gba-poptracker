@@ -1,0 +1,50 @@
+{
+    "ability_grid": {
+        "type": "itemgrid",
+        "item_margin": "3, 3",
+        "margin": "0,0",
+        "h_alignment": "center",
+        "rows": [
+            ["ice", "quickescape", "lamp", "mint", "top", "pepper"],
+            ["headbash", "dynamo", "SuperHealthBar", "shades", "antennae", "warp"],
+            ["MagicRainbowDust", "MagicRedDust", "MagicGreenDust", "MagicBlueDust", "MagicGoldDust"],
+            ["RedKey", "GreenKey", "PurpleKey", "YellowKey"]
+        ]
+    },
+    "heart_grid": {
+        "type": "itemgrid",
+        "item_margin": "3, 3",
+        "margin": "0,0",
+        "h_alignment": "center",
+        "rows": [
+            ["heart1", "heart2", "heart3", "heart4", "heart5", "heart6"],
+            ["heart7", "heart8", "heart9", "heart10", "heart11", "heart12"]
+        ]
+    },
+    "quest_grid": {
+        "type": "itemgrid",
+        "item_margin": "3, 3",
+        "margin": "0,0",
+        "rows": [
+            ["toy1", "toy2", "toy3", "toy4", "toy5", "toy6", "toy7", "", "medal1","medal2","medal3","medal4","medal5","medal6","medal7", "", "ingredient1","ingredient2","ingredient3","ingredient4","ingredient5","ingredient6","ingredient7"],
+            ["machine1","machine2","machine3","machine4","machine5","machine6","machine7", "", "tool1","tool2","tool3","tool4","tool5","tool6","tool7", "", "artifact1","artifact2","artifact3","artifact4","artifact5","artifact6","artifact7"],
+            ["equipment1","equipment2","equipment3","equipment4","equipment5","equipment6","equipment7", "", "plant1","plant2","plant3","plant4","plant5","plant6","plant7", "", "hipness1","hipness2","hipness3","hipness4","hipness5","hipness6","hipness7"]
+        ]
+    },
+    "vertical_quest_grid": {
+        "type": "itemgrid",
+        "item_margin": "3, 3",
+        "margin": "1,1",
+        "rows": [
+            ["toy1","toy2","toy3","toy4","toy5","toy6","toy7"],
+            ["machine1","machine2","machine3","machine4","machine5","machine6","machine7"],
+            ["equipment1","equipment2","equipment3","equipment4","equipment5","equipment6","equipment7"],
+            ["medal1","medal2","medal3","medal4","medal5","medal6","medal7"],
+            ["tool1","tool2","tool3","tool4","tool5","tool6","tool7"],
+            ["plant1","plant2","plant3","plant4","plant5","plant6","plant7"],
+            ["ingredient1","ingredient2","ingredient3","ingredient4","ingredient5","ingredient6","ingredient7"],
+            ["artifact1","artifact2","artifact3","artifact4","artifact5","artifact6","artifact7"],
+            ["hipness1","hipness2","hipness3","hipness4","hipness5","hipness6","hipness7"]
+        ]
+    }
+}

@@ -1,0 +1,171 @@
+[
+    {
+        "name": "Fairy Library",
+        "map_locations": [
+        {
+            "map": "overview",
+            "x": 67,
+            "y": 95
+        }
+        ],
+        "sections": [
+        {
+            "name": "FL Light the Hearth"
+        },
+        {
+            "name": "FL Ripto"
+        },
+        {
+            "name": "FL Moneybags Vault"
+        },
+        {
+            "name": "FL Put out the Book Fires",
+            "access_rules": ["ice"]
+        },
+        {
+            "name": "FL Red Chest",
+            "access_rules": ["LeftRed, RightRed"]
+        },
+        {
+            "name": "FL Green Chest",
+            "access_rules": ["LeftGreen, RightGreen"]
+        },
+        {
+            "name": "FL Purple Chest",
+            "access_rules": ["LeftPurple, RightPurple"]
+        },
+        {
+            "name": "FL Find all the Machine Parts",
+            "access_rules": ["machine1, machine2, machine3, machine4, machine5, machine6, machine7 "]
+        }
+        ]
+    },
+    {
+        "name": "FL Light the Hearth",
+        "map_locations": [
+        {
+            "map": "fairylibrary",
+            "x": 2490,
+            "y": 757
+        }
+        ],
+        "sections": [
+        {
+            "name": "Ice Fairy Scroll",
+            "ref": "Fairy Library/FL Light the Hearth"
+        }
+        ]
+    },
+    {
+        "name": "FL Ripto",
+        "map_locations": [
+        {
+            "map": "fairylibrary",
+            "x": 959,
+            "y": 443
+        }
+        ],
+        "sections": [
+        {
+            "name": "Fairy Spell Book",
+            "ref": "Fairy Library/FL Ripto"
+        }
+        ]
+    },
+    {
+        "name": "FL Moneybags Vault",
+        "map_locations": [
+        {
+            "map": "fairylibrary",
+            "x": 494,
+            "y": 308
+        }
+        ],
+        "sections": [
+        {
+            "name": "Ripto Action Figure",
+            "ref": "Fairy Library/FL Moneybags Vault"
+        }
+        ]
+    },
+    {
+        "name": "FL Put out the Book Fires",
+        "map_locations": [
+        {
+            "map": "fairylibrary",
+            "x": 1467,
+            "y": 476
+        }
+        ],
+        "sections": [
+        {
+            "name": "Kangaroo History",
+            "ref": "Fairy Library/FL Put out the Book Fires"
+        }
+        ]
+    },
+    {
+        "name": "FL Red Chest",
+        "map_locations": [
+        {
+            "map": "fairylibrary",
+            "x": 1119,
+            "y": 438
+        }
+        ],
+        "sections": [
+        {
+            "name": "Bianca Action Figure",
+            "ref": "Fairy Library/FL Red Chest"
+        }
+        ]
+    },
+    {
+        "name": "FL Green Chest",
+        "map_locations": [
+        {
+            "map": "fairylibrary",
+            "x": 1444,
+            "y": 94
+        }
+        ],
+        "sections": [
+        {
+            "name": "Yeti Hair Climbing Rope",
+            "ref": "Fairy Library/FL Green Chest"
+        }
+        ]
+    },
+    {
+        "name": "FL Purple Chest",
+        "map_locations": [
+        {
+            "map": "fairylibrary",
+            "x": 445,
+            "y": 104
+        }
+        ],
+        "sections": [
+        {
+            "name": "Hypnotic Light Organ",
+            "ref": "Fairy Library/FL Purple Chest"
+        }
+        ]
+    },
+    {
+        "name": "FL Find all the Machine Parts",
+        "map_locations": [
+        {
+            "map": "fairylibrary",
+            "x": 953,
+            "y": 259
+        }
+        ],
+        "sections": [
+        {
+            "name": "Heart of the Fairy Library",
+            "ref": "Fairy Library/FL Find all the Machine Parts"
+        }
+        ]
+    }
+]
