@@ -11,10 +11,6 @@
         "standard": {
             "display_name": "Map Tracker",
             "flags": ["ap"]
-        },
-        "var_items_only": {
-            "display_name": "Items Only",
-            "flags": ["ap"]
         }
     },
     "versions_url": "https://raw.githubusercontent.com/muffinjets/s3gba_poptracker/main/versions.json"

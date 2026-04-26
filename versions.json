@@ -1,0 +1,9 @@
+{
+    "versions": [
+    {
+        "package_version": "0.0.1",
+        "download_url": "https://github.com/muffinjets/s3gba-poptracker/releases/download/v0.0.1/s3gba-poptracker.zip",
+        "sha": "4104039f8ab25f80294a5d229a73798816477eb9a1fa77cfd977026dce0aaba8"
+    }
+    ]
+}
