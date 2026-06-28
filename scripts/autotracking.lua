@@ -639,3 +639,5 @@ ScriptHost:AddMemoryWatch("CSBlock", 0x03002FF0, 1, updateCS)
 ScriptHost:AddMemoryWatch("PLBlock", 0x03002FF1, 1, updatePL)
 ScriptHost:AddMemoryWatch("RCBlock", 0x03002FF2, 1, updateRC)
 ScriptHost:AddMemoryWatch("CRBlock", 0x03002FF3, 1, updateCR)
+
+ScriptHost:LoadScript("scripts/autotracking/archipelago.lua")
