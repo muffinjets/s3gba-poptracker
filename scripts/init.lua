@@ -30,3 +30,7 @@ Tracker:AddLocations("locations/professorssecretlab.json")
 Tracker:AddLocations("locations/cheetahspotspa.json")
 Tracker:AddLocations("locations/rhynocsnclocks.json")
 Tracker:AddLocations("locations/chateauripto.json")
+
+--autotracking
+
+ScriptHost:LoadScript("scripts/autotracking.lua")
